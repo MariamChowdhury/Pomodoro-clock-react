@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #1e212d;
+  color: #eabf9f;
+  height: 100vh;
+}
+.btn-color {
+  background-color: #eabf9f;
+  color: #1e212d;
+}
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  /* font-size: 6em; */
+  border: 1px solid #eabf9f;
+}
+.btn li {
+  padding: 2px;
+}
